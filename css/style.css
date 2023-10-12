@@ -1,19 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
-
 :root{
-    --main-color:#f5ddefbd;
+    --main-color:#E6E6FA;
     --black:#13131a;
-    --bg:#9404c4;
+    --bg:#7B68EE;
     --border:.1rem solid rgba(255,255,255,.3);
 }
-
 *{
-    font-family: 'Roboto', sans-serif;
+    font-family:Arial, sans-serif;
     margin:0; padding:0;
     box-sizing: border-box;
     outline: none; border:none;
-    text-decoration: none;
-    text-transform: capitalize;
+    text-decoration:none;
+    text-transform: none;
     transition: .2s linear;
 }
 
@@ -64,6 +62,8 @@ section{
     color:#ffffff;
     background: #e29d47;
     cursor: pointer;
+    border-radius: 1.2rem;
+    
 }
 
 .btn:hover{
@@ -89,6 +89,7 @@ section{
     margin:0 2rem;
     font-size: 1.8rem;
     color:#fff;
+    text-decoration: none;
 }
 
 .header .navbar a:hover{
@@ -147,6 +148,7 @@ section{
 .about .row .content{
     flex:1 1 45rem;
     padding:2rem;
+   
 }
 
 .about .row .content h3{
@@ -169,7 +171,7 @@ section{
 .menu .box-container .box{
     padding:5rem;
     text-align: center;
-    border:var(--border);    
+    border:var(--border);   
 }
 
 .menu .box-container .box img{
@@ -177,11 +179,10 @@ section{
 }
 
 .menu .box-container .box h3{
-    color: #fff;
+    color: #e29d47;
     font-size: 2rem;
     padding:1rem 0;
 }
-
 
 .footer{
     background:var(--bg);
@@ -197,9 +198,9 @@ section{
     border:var(--border);
     margin:.3rem;
     border-radius: 50%;
+    text-decoration: none;
 }
 
 .footer .share a:hover{
     background-color: var(--main-color);
 }
-
