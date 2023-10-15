@@ -62,9 +62,9 @@ article{
     margin-top: 1rem;
     display: inline-block;
     padding:.9rem 3rem;
-    font-size: 1.7rem;
-    color: var(--bg);
-    background: #f2f1ef;
+    font-size: 1.2rem;
+    color:#ffffff;
+    background: #e29d47;
     cursor: pointer;
     border-radius: 1.2rem;
     display: flex;
@@ -228,9 +228,15 @@ article{
     background:#fff;
 }
 
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
 .plano-estudo {
     display: none;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
 }
 .show {
     display: block;
@@ -250,16 +256,9 @@ article{
 }
 
 .plano-estudo .box-container .box img{
-    height: 10rem;
+    height: 8rem;
 }
 
-.plano-estudo .box-container .box h3{
-    color: #fff;
-    color: var(--black);
-    font-size: 2rem;
-    padding:1rem 0;
-    padding: 1rem 1rem 9rem;
-}
 
 .plano-estudo .box-container .box:hover{
     background:#fff;

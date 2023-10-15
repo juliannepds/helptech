@@ -29,12 +29,12 @@
 
         <main>
             <article class="home" id="home">
-                <div class="image">
-                    <img src="./assets/Programming.png" alt="Ilustração de personagem programando" />
-                </div>
+                <figure>
+                    <img src="assets/Programming.png" alt="”Imagem”" />
+                </figure>
                 <div class="content">
                     <h1>BEM VINDO(A) AO HELP TECH</h1>
-                    <p>Este é um site destinado aos curiosos e amantes da tecnologia. Aqui você vai desbravar o mundo pror trás dos códigos em uma viagem divertida e cheia de aprendizado.</p>
+                    <p>Explore o mundo da tecnologia conosco. Comece sua jornada de aprendizado hoje mesmo!</p>
                     <!-- <a href="#plano-estudo" class="btn">Vamos começar!</a> -->
                 </div>
             </article>
@@ -45,24 +45,69 @@
                         <img src="./assets/Woman chatting online.png" alt="Ilustração de uma garota programando" />
                     </div>
                     <div class="content">
-                        <h3>Como surgiu o Help</h3>
-                        <!-- <p>O  Help Tech surgiu durante o projeto Meninas In Tec da Fly Educação tem como objetivo .</p> -->
-                        <p>O projeto Meninas In Tec da Fly Educação tem como objetivo ajudar mulheres de todo o Brasil a aumentar sua presença no ramo da tecnologia.</p>
+                        <h3>Como surgiu o Help Tech</h3>
                         <p>
-                            Nesta edição voltada especialmente para mulheres do Nordeste, tivemos o privilégio de participar e criar este site que será a nossa marca registrada aqui para vocês.
-                            Aproveitem ao máximo o conteúdo disponibilizado e temos certeza de que você não vai se arrepender. Beijos: Turma 10 MIT!
+                            O GepTech nasceu como um TCC resultante do projeto Meninas in Tech da Fly Educação, em colaboração com a Alura. Ao considerar as dificuldades enfrentadas pelos iniciantes
+                            em programação ao estudar de forma independente e lidar com uma ampla gama de conteúdos, identificamos questões como a falta de direcionamento nos estudos e obstáculos para
+                            avançar. Como solução, desenvolvemos uma plataforma que oferece trilhas de estudo, exercícios interativos, videochamadas em grupo, comunidades de estudo, desafios online,
+                            um planner de estudos e um fórum de dúvidas, garantindo um ambiente de aprendizado acolhedor e orientado.
                         </p>
-                        <a href="#" class="btn">Conheça as desenvolvedoras</a>
-                        <a href="#" class="btn">Conheça as Idealizadoras</a>
+                        <!-- <a href="#" class="btn">Conheça as desenvolvedoras</a> -->
                     </div>
                 </div>
             </article>
         </main>
 
-        TENTAR COLOCAR OS CARDS DE BACK E FRONT UM DO LADO DO OUTRO
-
         <aside>
-            <button class= "button-tec" onclick="mostrarCards('plano-estudo-front')"><h3 class="heading"><span>Front End</span></h3> <p>Trilha para tecnologias front-end</p></button>
+            <div class="button-container">
+                <button class="button-tec" onclick="mostrarCards('plano-estudo-logica')">
+                    <h3 class="heading"><span>Lógica de programação</span></h3>
+                    <p>Trilha de estudo para logica de programação</p>
+                </button>
+                <button class="button-tec" onclick="mostrarCards('plano-estudo-front')">
+                    <h3 class="heading"><span>Front End</span></h3>
+                    <p>Trilha para tecnologias front-end</p>
+                </button>
+                <button class="button-tec" onclick="mostrarCards('plano-estudo-back')">
+                    <h3 class="heading"><span>Back End</span></h3>
+                    <p>Trilha de estudo para Back End</p>
+                </button>
+            </div>
+
+            <section class="plano-estudo" id="plano-estudo-logica">
+                <div class="box-container">
+                    <div class="box">
+                        <img src="assets/logica.png" alt="" />
+                        <a href="#" class="btn">Ver plano de estudo</a>
+                    </div>
+                    <div class="box">
+                        <img src="assets/algoritmo.png" alt="" />
+                        <a href="#" class="btn">Ver plano de estudo</a>
+                    </div>
+
+                    <div class="box">
+                        <img src="assets/estrutura de dados.png" alt="" />
+                        <a href="#" class="btn">Ver plano de estudo</a>
+                    </div>
+                    <div class="box">
+                        <img src="assets/git & github.png" alt="" />
+                        <a href="#" class="btn">Ver plano de estudo</a>
+                    </div>
+                    <div class="box">
+                        <img src="assets/node.png" alt="" />
+                        <a href="#" class="btn">Ver plano de estudo</a>
+                    </div>
+                    <div class="box">
+                        <img src="assets/frameworks.png" alt="" />
+                        <a href="#" class="btn">Ver plano de estudo</a>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
             <section class="plano-estudo" id="plano-estudo-front">
                 <div class="box-container">
                     <div class="box">
@@ -92,9 +137,6 @@
                     </div>
                 </div>
             </section>
-
-
-            <button class= "button-tec" onclick="mostrarCards('plano-estudo-back')"><h3 class="heading"><span>Back End</span></h3> <p>Trilha de estudo para Back End</p></button>
             <section class="plano-estudo" id="plano-estudo-back">
                 <div class="box-container">
                     <div class="box">
@@ -124,7 +166,6 @@
                     </div>
                 </div>
             </section>
-
             <section class="review" id="review">
                 <h3 class="heading">Sobre <span>nos</span></h3>
 
