@@ -63,10 +63,12 @@ article{
     display: inline-block;
     padding:.9rem 3rem;
     font-size: 1.7rem;
-    color:#ffffff;
-    background: #e29d47;
+    color: var(--bg);
+    background: #f2f1ef;
     cursor: pointer;
     border-radius: 1.2rem;
+    display: flex;
+    justify-content: center;
     
 }
 
@@ -151,8 +153,6 @@ article{
     animation: falling 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
-
-
 .home .content h3{
     margin-top: 25rem;
     font-size: 1.7rem;
@@ -198,6 +198,42 @@ article{
     color:#eedddd;
     padding:1rem 0;
     line-height: 1.8;
+}
+
+.button-tec{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:1.5rem;
+    border: 1px solid #b97be2;
+    border-radius: 8px;
+    background-color: #f8ebda;
+    padding:1rem 0;
+}
+
+.button-tec h3{
+    color: #e9dddd;
+    color: var(--black);
+    font-size: 1.7rem;
+    padding:1rem 0;
+}
+
+.button-tec p{
+    font-size: 1.2rem;
+    line-height: 1.2;
+    color:#534c4c;
+    padding:1rem 0;
+}
+
+.button-tec:hover{
+    background:#fff;
+}
+
+.plano-estudo {
+    display: none;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+}
+.show {
+    display: block;
 }
 
 .plano-estudo .box-container{
