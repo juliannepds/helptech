@@ -44,7 +44,8 @@ section{
 }
 
 article{
-    padding:2rem 7%;
+    padding:2rem 7% 8em ;
+    
 }
 
 .heading{
@@ -200,15 +201,25 @@ article{
     line-height: 1.8;
 }
 
-.button-tec{
+.button-tec {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap:1.5rem;
+    gap: 1.5rem;
     border: 1px solid #b97be2;
     border-radius: 8px;
     background-color: #f8ebda;
-    padding:1rem 0;
+    padding: 1rem 0;
+    background-position: -200px 0; /* Comece fora da tela à esquerda */
+    opacity: 0; /* Defina a opacidade para 0 */
+    transition: opacity 1s ease; /* Adicione uma transição de opacidade */
 }
+
+
+.animate-button-tec {
+    opacity: 1;
+    animation: slideIn 1s ease-in-out forwards;
+}
+
 
 .button-tec h3{
     color: #e9dddd;

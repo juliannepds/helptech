@@ -1,0 +1,95 @@
+.header {
+    background-image: url("caminho-para-sua-imagem.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    color: white; /* Define a cor do texto para branco ou outra cor que se destaque no plano de fundo */
+}
+
+.cards-container {
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+}
+
+.cards-container .card {
+    gap: 1.5rem;
+    padding: 2.5rem;
+    margin: 2rem;
+    text-align: center;
+    background-color: rgb(240, 218, 241);
+    border: var(--border);
+    border-radius: 7px;
+}
+
+.cards-container .card:hover {
+    background: #fff;
+}
+
+.cards-container .card:hover > * {
+    color: var(--black);
+}
+
+.cards-container .card p {
+    font-size: 1.7rem;
+    line-height: 1.8;
+    color: #191717;
+    padding: 1rem 0;
+}
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+img {
+    margin-bottom: 80px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 30px;
+}
+
+.final {
+    font-weight: bold;
+    text-align: center;
+    background: linear-gradient(0deg, #f1b69c 75%, #e7b6b7f8 100%);
+
+}
+
+button {
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+    font-size: 24px;
+    background: #f5def8;
+    color: rgb(27, 26, 26);
+    border: 1px solid #bcb8bc;
+    border-radius: 8px;
+    padding: 20px 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    animation: pulsate 1s ease-in-out;
+    background: linear-gradient(0deg, #f4d7cb 75%, #eed9daf8 100%);
+
+}
+
+@keyframes pulsate {
+    0% {
+        box-shadow: 0 0 25px #ffca28, 0 0 50px #d85116;
+    }
+}
+
+p {
+    font-size: 24px;
+}
+
+.escondido {
+    display: none;
+}
