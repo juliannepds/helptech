@@ -92,10 +92,21 @@ article{
     height: 3rem;
 }
 
+.header {
+    display: flex;
+   flex-direction: row;
+   align-items: flex-end;
+   justify-content:flex-end;
+   gap: 10rem;
+
+}
+
 .header .navbar a{
     margin:0 1rem;
     font-size: 1.6rem;
     color:#fff;
+    
+    
 }
 
 .header .navbar a:hover{
@@ -128,6 +139,7 @@ article{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 15rem;
 }
 
 .home .content{
@@ -173,6 +185,7 @@ article{
     background:var(--bg);
     flex-wrap: wrap;
     border-radius: 1rem;
+    padding-top: 3rem;
 }
 
 .about .row .image{
@@ -180,7 +193,7 @@ article{
 }
 
 .about .row .image img{
-    width: 80%;
+    width: 60%;
 }
 .about .row .content{
     flex:1 1 25rem;
@@ -243,6 +256,7 @@ article{
     display: flex;
     justify-content: space-around;
     margin-bottom: 20px;
+    padding: 30px;
 }
 
 .plano-estudo {
@@ -277,6 +291,10 @@ article{
 
 .plano-estudo .box-container .box:hover > *{
     color:var(--black);
+}
+.review .heading{
+    padding-top: 6rem;
+
 }
 
 .review .box-container{
