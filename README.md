@@ -1,7 +1,5 @@
 # 🌟 HelpTech - Plataforma de Aprendizado Tecnológico
 
-![HelpTech Logo](url_para_seu_logo.jpg)
-
 ## 📝 Descrição do Projeto
 
 O HelpTech é uma plataforma de aprendizado tecnológico que oferece uma variedade de recursos educacionais para iniciantes em programação. Nosso objetivo é ajudar os estudantes a iniciar sua jornada de aprendizado e fornecer ferramentas e recursos para um estudo eficaz.
