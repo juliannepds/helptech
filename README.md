@@ -1,7 +1,5 @@
 # 🌟 HelpTech - Plataforma de Aprendizado Tecnológico
 
-![HelpTech Logo](url_para_seu_logo.jpg)
-
 ## 📝 Descrição do Projeto
 
 O HelpTech é uma plataforma de aprendizado tecnológico que oferece uma variedade de recursos educacionais para iniciantes em programação. Nosso objetivo é ajudar os estudantes a iniciar sua jornada de aprendizado e fornecer ferramentas e recursos para um estudo eficaz.
@@ -15,31 +13,31 @@ O projeto HelpTech está em constante desenvolvimento e aprimoramento. Nós esta
 Conheça a equipe de desenvolvedoras por trás do HelpTech:
 
 - **Jaíne Rodrigues**
-  - 🎓 Graduação: Análise e Desenvolvimento de Sistemas
+  - Graduação: Análise e Desenvolvimento de Sistemas
   - LinkedIn: [🔗Jaíne Rodrigues no LinkedIn](https://www.linkedin.com/in/jaíne)
   - Email: jainer469@gmail.com
 
 - **Nathalia Autran**
-  - 🎓 Formação: Ciências Biológicas (em transição de carreira para Desenvolvimento Web)
+  - Formação: Ciências Biológicas (em transição de carreira para Desenvolvimento Web)
   - LinkedIn: [🔗Nathalia Autran no LinkedIn](linkedin.com/in/nathaliaautran)
   - Email: nathaliaautran@gmail.com
 
 - **Emanuelle Araújo**
-  - 🎓 Formação: Técnica em Informática (cursando Bacharelado em Sistemas de Informação)
+  - Formação: Técnica em Informática (cursando Bacharelado em Sistemas de Informação)
   - LinkedIn: [🔗Emanuelle Araújo no LinkedIn](https://www.linkedin.com/in/emanuelle-de-araujo-da-hora)
   - Email: araujoemanuelle262@gmail.com
   
 - **Maria Clara Gomes**
-    -Email: aclarameloo456@gmail.com
+  - Email: aclarameloo456@gmail.com
 
 - **Julianne Pereira**
-    -Email: juliannejpds@gmail.com
+  - Email: juliannejpds@gmail.com
 
 - **Andressa Rodrigues**
-    -Email: andressarodriguesferreira4@gmail.com
+  - Email: andressarodriguesferreira4@gmail.com
 
 - **Talita Mayara**
-   -Email: dear.19.27.06@gmail.com 
+  - Email: dear.19.27.06@gmail.com 
 
 ## 🤝 Contribuições
 
