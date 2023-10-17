@@ -92,6 +92,7 @@ article {
 
 .header .logo img {
     height: 3rem;
+    border-radius: 5em;
 }
 
 .header {
