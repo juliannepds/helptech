@@ -34,7 +34,7 @@ Conheça a equipe de desenvolvedoras por trás do HelpTech:
 
 - **Julianne Pereira**
 - Cursando Bacharelado em Engenharia de Produção
--Linkedin:[🔗Julianne Santos no LinkedIn](https://www.linkedin.com/in/julianne-santos-872b01293?trk=contact-info)
+ -Linkedin:[🔗Julianne Santos no LinkedIn](https://www.linkedin.com/in/julianne-santos-872b01293?trk=contact-info)
  - Email: juliannejpds@gmail.com
 
 - **Andressa Rodrigues**
